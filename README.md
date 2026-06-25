@@ -13,6 +13,9 @@
   <img src="https://img.shields.io/badge/Language-C++-blue?style=for-the-badge&logo=cplusplus" />
   <img src="https://img.shields.io/badge/Networking-TCP/IP-orange?style=for-the-badge" />
   <img src="https://img.shields.io/badge/School-42_Madrid-black?style=for-the-badge&logo=42" />
+  <a href="Documentation/en/README.en.md">
+    <img src="https://img.shields.io/badge/Read_in-English-purple?style=for-the-badge" alt="Read in English" />
+  </a>
 </p>
 
 ---
@@ -104,7 +107,7 @@ make
 ```bash
 make        # Compila el servidor
 make clean  # Elimina archivos objeto
-make fclean # Elimina archivos objeto y ejecutable
+make fclean # Elimina archivos objeto, carpeta objs y ejecutable
 make re     # Recompila desde cero
 ```
 
@@ -254,6 +257,9 @@ ft_irc/
 ├── Makefile
 ├── README.md
 ├── LICENSE
+├── Documentation/
+│   └── en/
+│       └── README.en.md
 ├── includes/
 │   ├── Channel.hpp
 │   ├── Client.hpp
